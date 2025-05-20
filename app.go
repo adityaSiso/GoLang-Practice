@@ -89,7 +89,21 @@ package main
 
 // Main function that will be executed by GO.
 func main() {
-	getUserData()
+
+	// start_time := time.Now()
+	// var count int64
+	// for i := 0; i <= int(math.Pow10(9)); i++ {
+	// 	select {
+	// 	default:
+	// 		// pass
+	// 	}
+	// }
+	// end_time := time.Now()
+	// fmt.Println("Total time taken to run a one billion iteration loop",
+	// 	end_time.Sub(start_time))
+
+	// collection_main()
+	map_practice()
 	// pointerFunction()
 	// var a, b, c int
 	// fmt.Scan(&a, &b, &c)

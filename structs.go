@@ -7,6 +7,9 @@ import (
 	"example.com/go-module/user"
 )
 
+// Alias
+type CustomString string
+
 func getUserIntput(inputText string) string {
 	var userInput string
 	fmt.Print(inputText)
